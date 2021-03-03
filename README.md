@@ -1,4 +1,4 @@
-# movieApp
+# 노마드코더와 함께하는 리액트 movieApp
 
 ### 1. Set up
 
