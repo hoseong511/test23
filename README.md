@@ -47,3 +47,13 @@
 - constructor -> render -> componentDidMount -> componentDidUpdate -> componentWillUnmount
 
     ```이것이 component Life Cycle이다.```
+
+### 3.4 Planning the Movie Component
+- ES6!! -> ```const { isLoading } = this.state;``` 
+- js의 setTimeout을 이용해서 data가 fetching 되기를 기다라보자
+    ```JavaScript
+    setTimeout(() => {
+        this.setState({ isLoading: false });
+    }, 6000);
+    });
+    ```
