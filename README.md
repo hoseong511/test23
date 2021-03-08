@@ -41,3 +41,9 @@
 ### 3.2  All you need to know about State
 - setState를 이용하지 않으면 최신화된 state와 render function이 호출되지 않는다.
 - setState를 이용해서 새로운 state와 render를 얻자.
+
+### 3.3 Component Life Cycle
+- constructor는 JavaScript!!
+- constructor -> render -> componentDidMount -> componentDidUpdate -> componentWillUnmount
+
+    ```이것이 component Life Cycle이다.```
