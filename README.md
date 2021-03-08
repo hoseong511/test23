@@ -34,4 +34,10 @@
 
 ## 3. STATE
 ### 3.1 Class Components and State
-- 클래스 컴포넌트를 활용하자
+- 클래스 컴포넌트를 이용해야만 state를 이용할 수 있다.
+- 변하는 데이터를 다루기 위해서 state를 이용한다.
+- react는 button에 onClick 기능 제공
+
+### 3.2  All you need to know about State
+- setState를 이용하지 않으면 최신화된 state와 render function이 호출되지 않는다.
+- setState를 이용해서 새로운 state와 render를 얻자.
