@@ -3,7 +3,6 @@
 ## 1. Set up
 
 ## 2. JSX & PROPS
-
 ### 2.1 Reusable Components with JSX + Props
 - React에서만 사용되는 jsx를 추가로 알고있으면 된다. 
 - index.html 에서 ```<div id="App">```에 뿌려지게 된다.
@@ -13,18 +12,26 @@
 - 핵심은 JavaScript 문법 중 map을 이용해서 array안에 내용을 반복적으로 뿌려주자.
     ```JavaScript
     friends = ["a", "b", "c", "d"]
-    friends.map(function(current) => {
+    friends.map(current => (
         console.log(current);
         current += " 😀"
         return current
-    })
+    ))
     ```
 ### 2.3 map Recap
 - 오류 해결하기!
 <p align="center"><img src="https://user-images.githubusercontent.com/62678380/110237182-b89f0180-7f7d-11eb-9018-48af1f36a142.png" width="500"></p>
 
 ```Html
+<!-- 리스트에 id 값 넣어주기 -->
 <ColorList key={color.id} name={color.name} image={color.image} />
 
 ``` 
 
+### 2.4 Protection with PropTypes
+- ```$ npm i prop-types``` PropTypes를 설치하자
+- PropTypes로 string, number, array, object등 해당되는 것들을 확인할 수 있다.
+
+## 3. STATE
+### 3.1 Class Components and State
+- 클래스 컴포넌트를 활용하자
