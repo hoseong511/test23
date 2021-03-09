@@ -11,13 +11,14 @@ class App extends React.Component{
     try {
       const movies = await axios.get("https://yts-proxy.now.sh/list_movies.json")
       console.log(movies);
+      this.setState({ isLoading: false });
     } catch (error) {
       console.error(error);
     } 
 
   }
   componentDidMount(){
-    this.getMovies();
+    this.getMovies();    
   }
   render(){       
       const { isLoading } = this.state;     
