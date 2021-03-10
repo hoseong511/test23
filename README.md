@@ -57,12 +57,15 @@
     }, 6000);
     });
     ```
+
 ## 4. MAKING THE MOVIE APP
 ### 4.1 Fetching movies from API
 - 데이터 담기
 - axios! ```npm i axios``` async/await를 이용하여 axios에서 불러오는 데이터를 기다리자.
+- 
 
 ### 4.2 Rendering the Movies
+- movie 타이틀을 렌더링하기
 
 ### 4.3 Styling the Movies
 
