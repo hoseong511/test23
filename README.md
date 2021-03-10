@@ -79,13 +79,14 @@
 - ```npm -i gh-pages``` gh-pages는 github.io를 이용하게 해주는 패키지임
 - package.json 파일에 ```"homepage": "https://hoseong511.github.io/moviehoho/"```를 추가해줌
 - 그 다음 아래와 같이 작성하고, ```npm run deploy```를 하기
-```JavaScript
-"scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy":"gh-pages -d build",
-    "predeploy": "npm run build"
-  }
-```
+    ```JavaScript
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "deploy":"gh-pages -d build",
+        "predeploy": "npm run build"
+    }
+    ```
 - https://hoseong511.github.io/moviehoho/ 에서 서비스!
+- 수정되는 사항이 있을 때 마다 ```npm run deploy```하면 자동으로 수정되니 참고.
  
