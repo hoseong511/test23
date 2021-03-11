@@ -100,7 +100,7 @@
  - BrowserRouter, HashRouter
  - redirecting 설정
     ```JavaScript
-    <!-- /movie-detail로 바로 접근하려 할때 redirecting 시킴 -->
+    <!-- /movie-detail를 주소창으로 직접 접근하려 할때 redirecting 시킴 -->
     if(location.state === undefined){
             history.push("/");
         }
