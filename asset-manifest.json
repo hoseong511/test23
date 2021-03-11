@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/moviehoho/static/css/main.b2d8931e.chunk.css",
-    "main.js": "/moviehoho/static/js/main.330b416f.chunk.js",
-    "main.js.map": "/moviehoho/static/js/main.330b416f.chunk.js.map",
+    "main.css": "/moviehoho/static/css/main.c8865d5a.chunk.css",
+    "main.js": "/moviehoho/static/js/main.b81afadf.chunk.js",
+    "main.js.map": "/moviehoho/static/js/main.b81afadf.chunk.js.map",
     "runtime-main.js": "/moviehoho/static/js/runtime-main.62bd4273.js",
     "runtime-main.js.map": "/moviehoho/static/js/runtime-main.62bd4273.js.map",
-    "static/js/2.4ab76464.chunk.js": "/moviehoho/static/js/2.4ab76464.chunk.js",
-    "static/js/2.4ab76464.chunk.js.map": "/moviehoho/static/js/2.4ab76464.chunk.js.map",
+    "static/js/2.563e2bef.chunk.js": "/moviehoho/static/js/2.563e2bef.chunk.js",
+    "static/js/2.563e2bef.chunk.js.map": "/moviehoho/static/js/2.563e2bef.chunk.js.map",
     "index.html": "/moviehoho/index.html",
-    "static/css/main.b2d8931e.chunk.css.map": "/moviehoho/static/css/main.b2d8931e.chunk.css.map",
-    "static/js/2.4ab76464.chunk.js.LICENSE.txt": "/moviehoho/static/js/2.4ab76464.chunk.js.LICENSE.txt"
+    "static/css/main.c8865d5a.chunk.css.map": "/moviehoho/static/css/main.c8865d5a.chunk.css.map",
+    "static/js/2.563e2bef.chunk.js.LICENSE.txt": "/moviehoho/static/js/2.563e2bef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.62bd4273.js",
-    "static/js/2.4ab76464.chunk.js",
-    "static/css/main.b2d8931e.chunk.css",
-    "static/js/main.330b416f.chunk.js"
+    "static/js/2.563e2bef.chunk.js",
+    "static/css/main.c8865d5a.chunk.css",
+    "static/js/main.b81afadf.chunk.js"
   ]
 }
