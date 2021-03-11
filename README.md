@@ -98,3 +98,11 @@
 
 - router에 해당되는 부분이 있으면 전부 렌더링되는 형식으로 이 부분을 해결하기 위해서는 ```exact={true}```를 추가해주어야함.
  - BrowserRouter, HashRouter
+ - redirecting 설정
+    ```JavaScript
+    <!-- /movie-detail로 바로 접근하려 할때 redirecting 시킴 -->
+    if(location.state === undefined){
+            history.push("/");
+        }
+    ```
+- props를 받아서 페이지를 이동하는 방식이 API를 이용하지않는 오프라인 방식이라니.. 
