@@ -1,4 +1,7 @@
 # 노마드코더와 함께하는 리액트 movieApp
+프론트엔드 프레임워크인 react를 이용해서 정적웹페이지 만들기
+영화 관련한 내용은 yts의 API(노마드코더버전, https://yts-proxy.now.sh/list_movies.json)을 
+이용했다.
 
 ## 1. Set up
 
