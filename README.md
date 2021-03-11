@@ -77,6 +77,7 @@
 
 ## 5. CONCLUSIONS
 - ```npm -i gh-pages``` gh-pages는 github.io를 이용하게 해주는 패키지임
+- ```git remote -v```로 원격저장소를 확인한다.
 - package.json 파일에 ```"homepage": "https://hoseong511.github.io/moviehoho/"```를 추가해줌
 - 그 다음 아래와 같이 작성하고, ```npm run deploy```를 하기
     ```JavaScript
@@ -89,4 +90,11 @@
     ```
 - https://hoseong511.github.io/moviehoho/ 에서 서비스!
 - 수정되는 사항이 있을 때 마다 ```npm run deploy```하면 자동으로 수정되니 참고.
+
+## 6. ROUTER
+- 여러개의 페이지를 다루기 위해서 router를 이용함.
+- ```npm i react-router-dom```을 이용해서 router를 설정함.
+    <p align="center"><img src="https://user-images.githubusercontent.com/62678380/110758383-cf9c6700-828f-11eb-8a0d-9a30d9033b3e.png" width="500"></p>
+
+- router에 해당되는 부분이 있으면 전부 렌더링되는 형식으로 이 부분을 해결하기 위해서는 ```exact={true}```를 추가해주어야함.
  
