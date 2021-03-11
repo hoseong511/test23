@@ -97,4 +97,4 @@
     <p align="center"><img src="https://user-images.githubusercontent.com/62678380/110758383-cf9c6700-828f-11eb-8a0d-9a30d9033b3e.png" width="500"></p>
 
 - router에 해당되는 부분이 있으면 전부 렌더링되는 형식으로 이 부분을 해결하기 위해서는 ```exact={true}```를 추가해주어야함.
- 
+ - BrowserRouter, HashRouter
