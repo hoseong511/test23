@@ -8,7 +8,7 @@
 
 ## 2. JSX & PROPS
 ### 2.1 Reusable Components with JSX + Props
-- React에서만 사용되는 jsx를 추가로 알고있으면 된다. 
+- React에서 사용되는 JSX(JavaScript XML)를 추가로 알고있으면 된다. 
 - index.html 에서 ```<div id="App">```에 뿌려지게 된다.
 <p align="center"><img width="500" src="https://user-images.githubusercontent.com/62678380/110234770-bafa5f00-7f6f-11eb-8ab4-4e9f94af8e4f.png"> </p>
 
@@ -23,14 +23,14 @@
     ))
     ```
 ### 2.3 map Recap
-- 오류 해결하기!
+- key 오류 해결하기!
 <p align="center"><img src="https://user-images.githubusercontent.com/62678380/110237182-b89f0180-7f7d-11eb-9018-48af1f36a142.png" width="500"></p>
 
 ```Html
 <!-- 리스트에 id 값 넣어주기 -->
 <ColorList key={color.id} name={color.name} image={color.image} />
-
 ``` 
+- Virtual DOM의 특성이 드러나는 부분이다. 특정 요소가 업데이트 되기 위해서 요소를 구별하기 위한 고유 값이다.
 
 ### 2.4 Protection with PropTypes
 - ```$ npm i prop-types``` PropTypes를 설치하자
@@ -53,7 +53,7 @@
     ```이것이 component Life Cycle이다.```
 
 ### 3.4 Planning the Movie Component
-- ES6!! -> ```const { isLoading } = this.state;``` 
+- ES6!! -> ```const { isLoading } = this.state;``` 구조분해
 - js의 setTimeout을 이용해서 data가 fetching 되기를 기다라보자
     ```JavaScript
     setTimeout(() => {
